@@ -1,18 +1,18 @@
 # gpt_stripe_demo
 
-##In your front end
+## In your front end
 
 npm install @stripe/react-stripe-js @stripe/stripe-js
 
 
-###Frontend environment variables
+### Frontend environment variables
 
 Add a .env file to your front end repository, then add your stripe public key
 STRIPE_PUBLISHABLE_KEY=”sk_test_xxx…”
 
 Note: you may need to just hardcode your publishable key into your app for development, but in production you don’t want to do this. For deploying somewhere like Vercel, you can set environment variables when you create your app. 
 
-##In your backend:
+## In your backend:
 pip install djangorestframework django-cors-headers openai python-dotenv stripe
 
 
@@ -21,7 +21,7 @@ Need to create an openai api key at platform.openai.com
 Make sure your account has funds! Don’t add more than $5 or $10 to start, it takes a long time to go through credits. 
 I recommend using the gpt-4o-mini model, it’s really cheap. 
 
-####Backend Environment Variables
+### Backend Environment Variables
 
 Add a .env file to your backend repository, then add your openai api key
 OPENAI_API_KEY=”sk-proj-xxx…”
